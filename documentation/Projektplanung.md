@@ -10,7 +10,7 @@
 | 4.1   | Setup Hypervisor                              | 2h    | `@all`          |
 | 4.2   | Netzwerk (Switch, Firewall, VM)               | 3h    | [@gordon](https://github.com/gordonkerl)       |
 | 4.3   | VM Setup (6 * linux server) (ubuntu server)   | 1.5h  | `@all`          |
-| 4.4   | Instalation + Konfiguration Docker + Swarm    | 2h    | [@simon](https://github.com/simonhoellein) [@gordon](https://github.com/gordonkerl) [@tobias](https://www.github.com/nibbico)|
+| 4.4   | Installation + Konfiguration Docker + Swarm    | 2h    | [@simon](https://github.com/simonhoellein) [@gordon](https://github.com/gordonkerl) [@tobias](https://www.github.com/nibbico)|
 | 4.5   | Container Deployment + config                 | 4h    | [@gordon](https://github.com/gordonkerl)       |
 | 4.6   | Skalierbarkeit konfigurieren                  | 2h    | [@simon](https://github.com/simonhoellein)        |
 | 4.7   | Loadbalancer config + HA                      | 2h    | [@tobias](https://www.github.com/nibbico) [@alex](https://github.com/https://github.com/Palisander56) |
