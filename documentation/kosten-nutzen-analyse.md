@@ -8,7 +8,7 @@
 * 369 kaufen Anhänger 
 * 3690€ Umsatz pro stunde
 
-* 
+* Produktionskosten: 3EUR
 
 ## Kosten
 * Hardware:
