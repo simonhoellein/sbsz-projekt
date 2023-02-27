@@ -13,5 +13,3 @@
 * Schutz gegen SQL-Injections, Spoofing, etc., Netzwerk-sepatrierung, Best-Practices, Password-Policy, 
 * Herstellen einer HA-fähigen Umgebung (HA=High availibility) mit Loadbalancern und redundater hardware
 * Skalierbarkeit durch Node-Metriken und manuelle Konfiguration ermöglichen
-
-testfnkhshgkdfjhgkjdfgf
