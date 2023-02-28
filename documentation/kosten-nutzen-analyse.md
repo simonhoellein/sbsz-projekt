@@ -8,17 +8,27 @@
 * 369 kaufen Anhänger 
 * 3690€ Umsatz pro Stunde
 
-* 
-
 ## Kosten
+
 * Hardware:
-    * Server
-    * Switch
-    * Kabel
-        * Kaltgerätekabel
-        * Netzwerkkabel
+
+| Gerät  | Hardware                              | Kosten |
+| :---:  | ---                                   |  :---: |
+| Server | HP ProLiant DL380 G7                  | 371,-€ |
+| SAS Festplatten | HPE HDD 300GB 10K 2.5"       | 560,-€ |
+| Arbeitsspeicher | DDR3 1600Mhz PC3-12800       | 480,-€ |
+| Zwischensumme |                                | 1411,-€ |
+| Switch | HP ProCurve Switch J9280A             | 996,-€ |
+|  |                                |  |
+|Gesamtsumme  |                                |2407,-€ |
+
+* Kabel 
+     * Kaltgerätekabel
+     * Netzwerkkabel
+    
 * Laufende Kosten:
     * Strom
+    
 * Manpower:
     * Administration
 
