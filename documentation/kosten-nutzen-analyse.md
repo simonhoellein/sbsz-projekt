@@ -33,5 +33,12 @@
     * Administration
 
 ## Nutzen:
-* keine Ausfallzeiten --> mehr Umsatz
-* keine externen Kosten
+* aufgrund neuere Hardware, keine Ausfallzeiten mehr, daher erhöhter Umsatz
+
+Direktes Nutzen: 
+* mehr Umsatz, weil die Ausfallzeit pro Tag von einer Stunde wegfällt.
+
+Indirekte Nutzen: 
+* weniger Montage -oder Repaturmaßnahmen erforderlich. 
+* Kundenzufriedenheit erhöht
+* weniger Verlust von Kunden und Einnahmen
