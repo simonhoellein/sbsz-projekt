@@ -6,7 +6,7 @@
 `192.168.0.5`   - sw-1
 `192.168.0.10`  - proxmox
 
-`<subnet>.20`   - lb
+`<subnet>.20`   - lb-vip
 `<subnet>.21`   - lb1
 `<subnet>.22`   - lb2
 
