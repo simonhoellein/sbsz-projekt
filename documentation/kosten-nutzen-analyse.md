@@ -40,5 +40,5 @@ Direktes Nutzen:
 
 Indirekte Nutzen: 
 * weniger Montage -oder Repaturmaßnahmen erforderlich. 
-* Kundenzufriedenheit erhöht
+* Kundenzufriedenheit erhöht sich
 * weniger Verlust von Kunden und Einnahmen
