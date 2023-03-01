@@ -6,6 +6,7 @@
 * Webseitenaufrufe pro Stunde: 5.000
 * 1031 schauen Anhänger an
 * 369 kaufen Anhänger 
+
 * 3690€ Umsatz pro Stunde
 
 ## Kosten
