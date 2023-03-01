@@ -35,7 +35,7 @@
 ## Nutzen:
 * aufgrund neuere Hardware, keine Ausfallzeiten mehr, daher erhöhter Umsatz
 
-Direktes Nutzen: 
+Direkten Nutzen: 
 * mehr Umsatz, weil die Ausfallzeit pro Tag von einer Stunde wegfällt.
 
 Indirekte Nutzen: 
