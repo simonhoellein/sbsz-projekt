@@ -17,5 +17,3 @@ Zur Konfiguration der Komponenten werden bereits vorhandene Firmengeräte verwen
 
 ## Soll-Zustand
 Die bereitgestellte Hardware wird, entkoppelt von der bestehenden IT-Infrastruktur, installiert und konfiguriert. Zur vereinfachten Administration sollen die bereitgestellten Dienste über Docker Swarm laufen. Zur Darstellung der Website soll ein Webserver mit Wordpress als CMS mit einer Backend-Datenbank implementiert werden. Um die Verfügbarkeit des Servers zu maximieren muss neben einer Redundanz aller kritischer Ressourcen auch der Schutz vor Angriffen berücksichtigt werden. Zudem sollen die Systemressourcen skalierbar sein, dass der Server auch bei steigenden Besucherzahlen über ausreichend Leistung verfügt.
-
-Test123
