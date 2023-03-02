@@ -3,19 +3,19 @@
   hosts: all
   tasks:
     - name: Set authorized keys, removing all the authorized keys already set
-    ansible.posix.authorized_key:
-      user: root
-      state: present
-      exclusive: true
-      key: '{{ item }}'
-    with_file:
-      - public_keys/simon
-      - public_keys/gordon
-      - public_keys/tobias
-      - public_keys/alex
+      ansible.posix.authorized_key:
+        user: root
+        state: present
+        exclusive: true
+        key: '{{ item }}'
+      with_file:
+        - public_keys/simon
+        - public_keys/gordon
+        - public_keys/tobias
+        - public_keys/alex
     - name: Disable password-authentication for ssh
-    shell: sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/g' /etc/ssh/sshd_config
+      shell: sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/g' /etc/ssh/sshd_config
     - name: reload sshd service
-    ansible.builtin.service:
-      name: sshd
-      state: reloaded
+      ansible.builtin.service:
+        name: sshd
+        state: reloaded
