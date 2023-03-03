@@ -6,6 +6,7 @@
 * Webseitenaufrufe pro Stunde: 5.000
 * 1031 schauen Anhänger an
 * 369 kaufen Anhänger 
+
 * 3690€ Umsatz pro Stunde
 
 ## Kosten
@@ -33,6 +34,7 @@
 * Manpower:
     * Administration
 
+
 # Nutzen:
 * aufgrund neuere Hardware, keine Ausfallzeiten mehr, daher erhöhter Umsatz
 
@@ -42,4 +44,5 @@
 ## Indirekte Nutzen: 
 * weniger Montage -oder Repaturmaßnahmen erforderlich. 
 * Kundenzufriedenheit erhöht sich
+
 * weniger Verlust von Kunden und Einnahmen
