@@ -1,0 +1,8 @@
+---
+  - name: update-system
+    hosts: all
+    tasks:
+      - name: update repositories
+        ansible.builtin.apt:
+          update_cache: yes
+          upgrade: yes    

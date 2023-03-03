@@ -1,0 +1,22 @@
+---
+- name: install basic packages
+  hosts: all
+  tasks:
+    - name: update repositories
+      ansible.builtin.apt:
+        update_cache: yes
+    - name: install basic tools
+      ansible.builtin.apt:
+        pkg:
+        - htop
+        - nload
+        - vim
+        - nano
+        - git
+        - ncdu
+        - net-tools
+        - iotop
+        - screen
+    - name: cleanup
+      ansible.builtin.apt:
+        autoremove: yes

@@ -39,3 +39,35 @@
     * Konfiguration des Kernels
 
 * Einbau Server und Switch in mobiles Cisco-Rack
+
+* Firewall-VM zum laufen bringen
+    * Der Firewall-VM ein PCI-Device (Netzwerkkarte) zuweisen
+    * erstellung 2 neuer Netzwerkbrücken vmbr1(Projekt-Netz) und vmbr4 (WAN, ip und gateway in netz der schule)
+
+* Konfiguration von pfsense
+    * DHCP-Server Gateway, DNS-Server
+
+* Erstellen der 4 Docker-VMs
+    * Zuweisen von Ressourcen je VM
+        * 4 Cores
+        * 16 GB RAM
+        * Betriebssystem Ubuntu 22.04.1 Server
+    * Konfiguration der VM
+        * Zuweisen des Subnet, IP, Gateway, Nameserver
+        * Anpassen der Volume-Größe
+        * Konfiguration des Server-Name, Benutzername, Passwort
+        * Aktivieren von SSH
+        * Ablegen der SSH-Public-Keys der Projektmitglieder auf VM, um sich mit SSH und nicht mit Passwort zu verbinden
+    * Klonen der ersten VM
+
+* Sicherheit-Features
+    * Deaktivieren nicht verwendeter Switch-Ports
+    * Verteilung der SSH-Public-Keys der Projektmitglieder auf VMs per Ansible und deaktivieren des Passwort-Logins
+
+* Installation und Konfiguration von Docker inkl. Docker Swarm
+    * 
+
+* Installation Network File System (NFS)
+    * Aufsetzen von 3 VMs
+    * Installation und Konfiguration von GlusterFS
+    * 
