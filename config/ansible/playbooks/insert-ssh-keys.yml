@@ -1,6 +1,6 @@
 ---
 - name: update ssh keys
-  hosts: all
+  hosts: nfs
   tasks:
     - name: Set authorized keys, removing all the authorized keys already set
       ansible.posix.authorized_key:
@@ -8,10 +8,10 @@
         state: present
         key: '{{ item }}'
       with_file:
-        - public_keys/simon
-        - public_keys/gordon
-        - public_keys/tobias
-        - public_keys/alex
+        - ~/.ansible/public_keys/simon
+        - ~/.ansible/public_keys/gordon
+        - ~/.ansible/public_keys/tobias
+        - ~/.ansible/public_keys/alex
     - name: Disable password-authentication for ssh
       shell: sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/g' /etc/ssh/sshd_config
     - name: reload sshd service
