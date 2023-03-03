@@ -6,7 +6,6 @@
       ansible.posix.authorized_key:
         user: root
         state: present
-        exclusive: true
         key: '{{ item }}'
       with_file:
         - public_keys/simon
