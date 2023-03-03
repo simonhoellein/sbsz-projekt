@@ -14,13 +14,14 @@
 
 | Gerät  | Hardware                              | Kosten |
 | :---:  | ---                                   |  :---: |
-| Server | HP ProLiant DL380 G7                  | 371,-€ |
+| Server | HP ProLiant DL380 G7                  | 779,45 € | 
 | SAS Festplatten | HPE HDD 300GB 10K 2.5"       | 560,-€ |
-| Arbeitsspeicher | DDR3 1600Mhz PC3-12800       | 480,-€ |
+| Arbeitsspeicher | DDR3 1600Mhz PC3-12800       | 245,-€ |
 | Zwischensumme |                                | 1411,-€ |
 | Switch | HP ProCurve Switch J9280A             | 996,-€ |
+|Lizenz  |                                |? |
 |  |                                |  |
-|Gesamtsumme  |                                |2407,-€ |
+|Gesamtsumme  |                                |2.580,45€ |
 
 * Kabel 
      * Kaltgerätekabel
@@ -32,13 +33,13 @@
 * Manpower:
     * Administration
 
-## Nutzen:
+# Nutzen:
 * aufgrund neuere Hardware, keine Ausfallzeiten mehr, daher erhöhter Umsatz
 
-Direktes Nutzen: 
+## Direktes Nutzen: 
 * mehr Umsatz, weil die Ausfallzeit pro Tag von einer Stunde wegfällt.
 
-Indirekte Nutzen: 
+## Indirekte Nutzen: 
 * weniger Montage -oder Repaturmaßnahmen erforderlich. 
 * Kundenzufriedenheit erhöht sich
 * weniger Verlust von Kunden und Einnahmen
