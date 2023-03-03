@@ -1,6 +1,6 @@
 ---
 - name: update ssh keys
-  hosts: nfs
+  hosts: all
   tasks:
     - name: Set authorized keys, removing all the authorized keys already set
       ansible.posix.authorized_key:
