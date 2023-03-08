@@ -1,0 +1,41 @@
+---
+version: '3.2'
+services:
+  wordpress:
+    image: wordpress:latest
+    environment:
+      - 
+    volumes:
+      -
+    deploy:
+      replicas: 4
+      resources:
+        limits:
+          cpus: '1'
+          memory: '2048M'
+        reservations:
+          cpus: '0.5'
+          memory: '512M'
+      restart_policy:
+        condition: on-failure
+    networks:
+      - wordpress-overlay
+
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: password-change-me
+      TZ: UFT
+    volumes:
+      - 
+    deploy:
+      replicas: 1
+      restart_policy: on-failure
+    networks:
+      - wordpress-overlay
+
+networks:
+  wordpress-overlay:
+    driver: overlay
+    attachable: true
+
