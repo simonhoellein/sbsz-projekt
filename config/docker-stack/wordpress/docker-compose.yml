@@ -1,0 +1,60 @@
+---
+version: '3.2'
+services:
+  wordpress:
+    depends_on:
+    - mariadb
+    image: wordpress:latest
+    environment:
+      - WORDPRESS_DB_HOST=mariadb
+      - WORDPRESS_DB_USER=wordpress
+      - WORDPRESS_DB_PASSWORD=wordpress
+      - WORDPRESS_DB_NAME=wordpress
+    volumes:
+      - wp_data:/var/www/html
+    deploy:
+      replicas: 4
+      # resouces are optional
+      resources:
+        limits:
+          cpus: '1'
+          memory: '2048M'
+        reservations:
+          cpus: '0.5'
+          memory: '512M'
+      restart_policy:
+        condition: on-failure
+    networks:
+      - wordpress-overlay
+    ports: 
+      - 80:80
+      - 443:443
+
+  mariadb:
+    image: mariadb:10.6.4-focal
+    command: '--default-authentication-plugin=mysql_native_password'
+    environment:
+      - MYSQL_ROOT_PASSWORD=password-change-me
+      - TZ=UFT
+      - MYSQL_DATABASE=wordpress
+      - MYSQL_USER=wordpress
+      - MYSQL_PASSWORD=wordpress
+    expose:
+      - 3306
+      - 33060
+    volumes:
+      - db_data:/var/lib/mysql
+    deploy:
+      replicas: 1
+    restart: always
+    networks:
+      - wordpress-overlay
+
+networks:
+  wordpress-overlay:
+    driver: overlay
+    attachable: true
+
+volumes:
+  wp_data:
+  db_data:
