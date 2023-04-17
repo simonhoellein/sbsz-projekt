@@ -1,0 +1,7 @@
+---
+- name: GlusterFS Installation and Configuration
+  hosts: docker
+  tasks:
+    - name: Install GlusterFS
+      ansible.builtin.apt:
+      

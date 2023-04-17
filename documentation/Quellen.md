@@ -8,3 +8,7 @@
 ## Was ist Docker?
 * https://www.redhat.com/de/topics/containers/what-is-docker#überblick (1.3.23)
 * https://www.opc-router.de/was-ist-docker/#:~:text=Docker%20ist%20ein%20beliebtes%20Open,sowie%20die%20Systemressourcen%20gemeinsam%20nutzen (1.3.23)
+
+## haproxy config
+* https://www.haproxy.com/de/blog/the-four-essential-sections-of-an-haproxy-configuration/
+* https://gist.github.com/bhameyie/07c1ee9aaa3e8a200c8c

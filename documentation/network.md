@@ -2,19 +2,22 @@
 
 ## IPs
 
-`192.168.0.1`   - gw-1
-`192.168.0.5`   - sw-1
-`192.168.0.10`  - proxmox
-
-`<subnet>.20`   - lb-vip
-`<subnet>.21`   - lb1
-`<subnet>.22`   - lb2
-
-`<subnet>.41`   - docker-1
-`<subnet>.4...` - docker-...
-
-`<subnet>.100` - dhcp-start
-`<subnet>.200` - dhcp-end
+|IPs|Description|A-Record|
+|---|-----------|--------|
+|1  |pfsense    |gw-1    |
+|5  |switch     |sw-1    |
+|10 |proxmox    |prox-1  |
+|15 |ilo        |ilo     |
+|20 |haproxy-vip|lb-vip  |
+|21 |haproxy-1  |lb-1    |
+|22 |haproxy-2  |lb-1    |
+|41 |docker-1   |docker-1|
+|42 |docker-2   |docker-2|
+|43 |docker-3   |docker-3|
+|44 |docker-4   |docker-4|
+|45 |docker-5   |docker-5|
+|100|start-dhcp |--------|
+|200|end-dhcp   |--------|
 
 ## HOWTO - Connect via ssh
 
