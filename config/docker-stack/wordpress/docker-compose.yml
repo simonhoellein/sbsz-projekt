@@ -13,7 +13,7 @@ services:
     volumes:
       - wp_data:/var/www/html
     deploy:
-      replicas: 4
+      replicas: 1
       # resouces are optional
       # resources:
       #   limits:
