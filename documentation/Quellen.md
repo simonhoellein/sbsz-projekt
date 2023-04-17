@@ -11,3 +11,7 @@
 ## Was ist Docker Swarm?
 * https://blog.doubleslash.de/docker-swarm-container-orchestration (17.4.23)
 * https://www.heise.de/hintergrund/Multi-Tier-Applikationen-mit-Docker-Compose-Machine-und-Swarm-3014669.html?seite=4 (17.4.23)
+
+## Hypervisor - Proxmox
+* https://de.wikipedia.org/wiki/Proxmox_VE
+* https://www.keyweb.de/de/keyweb/blog/was-ist-proxmox-und-wie-steuere-ich-damit-einen-virtuellen-server
