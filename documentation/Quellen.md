@@ -7,3 +7,6 @@
 ## Was ist Docker?
 * https://www.redhat.com/de/topics/containers/what-is-docker#überblick (1.3.23)
 * https://www.opc-router.de/was-ist-docker/#:~:text=Docker%20ist%20ein%20beliebtes%20Open,sowie%20die%20Systemressourcen%20gemeinsam%20nutzen (1.3.23)
+## Was ist Docker Swarm?
+https://blog.doubleslash.de/docker-swarm-container-orchestration (17.4.23)
+https://www.heise.de/hintergrund/Multi-Tier-Applikationen-mit-Docker-Compose-Machine-und-Swarm-3014669.html?seite=4 (17.4.23)
