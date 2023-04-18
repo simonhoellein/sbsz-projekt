@@ -33,9 +33,7 @@
     - name: Check glusterd status
       shell: systemctl status glusterd
     - name: Create xfs filesystem
-      community.general.filesystem:
-        fstype: xfs
-        dev: /dev/sdb1
+      shell: mkfs.xfs /dev/sdb1
     - name: Create gluster mount-mount-dir
       shell: mkdir /mnt/gluster
     - name: add glusterd-disk to fstab
