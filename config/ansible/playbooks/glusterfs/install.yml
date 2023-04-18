@@ -10,7 +10,7 @@
       ansible.builtin.blockinfile: 
         state: present
         insertafter: EOF
-        dest: /etc/services
+        dest: /etc/hosts
         marker: "<!-- add services ANSIBLE MANAGED BLOCK -->"
         content: |
           ####################
