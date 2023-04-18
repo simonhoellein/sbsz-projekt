@@ -23,9 +23,8 @@
           192.168.0.45 node5
     - name: Install GlusterFS
       ansible.builtin.apt:
-      update_cache: yes
-        pkg:
-        - glusterfs-server
+        name: glusterfs-server
+        state: present
     - name: Start and Enable GlusterFS
       ansible.builtin.service:
         name:   glusterd
@@ -46,4 +45,3 @@
         create: yes
     - name: mount disks
       shell: mount -a
-      
