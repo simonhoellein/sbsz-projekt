@@ -11,7 +11,7 @@
         state: present
         insertafter: EOF
         dest: /etc/hosts
-        marker: "<!-- add services ANSIBLE MANAGED BLOCK -->"
+        marker: "# add services ANSIBLE MANAGED BLOCK #"
         content: |
           ####################
           # glusterfs-server #
