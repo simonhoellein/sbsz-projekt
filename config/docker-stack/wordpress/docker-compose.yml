@@ -34,7 +34,7 @@ services:
     image: mariadb:10.6.4-focal
     command: '--default-authentication-plugin=mysql_native_password'
     environment:
-      - MYSQL_ROOT_PASSWORD=password-change-me
+      - MYSQL_ROOT_PASSWORD=uqmAS7QKYBUyk8C7dW7vTzvaNAXAkYwCZEGVmZUSNW4mJcP9rUJkoefxCiVi4tTk
       - TZ=UFT
       - MYSQL_DATABASE=wordpress
       - MYSQL_USER=wordpress
