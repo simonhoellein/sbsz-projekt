@@ -11,6 +11,7 @@ services:
       - WORDPRESS_DB_PASSWORD=wordpress
       - WORDPRESS_DB_NAME=wordpress
     volumes:
+
       - /opt/docker/wp-stack/wp_data:/var/www/html
     deploy:
       replicas: 1
@@ -46,3 +47,4 @@ networks:
   wordpress-overlay:
     driver: overlay
     attachable: true
+    
