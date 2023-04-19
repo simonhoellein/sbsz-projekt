@@ -15,9 +15,9 @@
 * Skalierbarkeit durch Node-Metriken und manuelle Konfiguration ermöglichen
 
 ## TODO: 
-- 3 manager nodes docker
-- glusterfs
-- db-scale
-- wp-scale
-- certigikate
-- domain
+- [x] 3 manager nodes docker
+- [x] glusterfs
+- [x] wp-scale
+- [x] certifikate
+- [x] domain
+- [ ] Dokumentation

@@ -11,17 +11,10 @@ services:
       - WORDPRESS_DB_PASSWORD=wordpress
       - WORDPRESS_DB_NAME=wordpress
     volumes:
-      - wp_data:/var/www/html
+
+      - /opt/docker/wp-stack/wp_data:/var/www/html
     deploy:
-      replicas: 4
-      # resouces are optional
-      resources:
-        limits:
-          cpus: '1'
-          memory: '2048M'
-        reservations:
-          cpus: '0.5'
-          memory: '512M'
+      replicas: 1
       restart_policy:
         condition: on-failure
     networks:
@@ -34,7 +27,7 @@ services:
     image: mariadb:10.6.4-focal
     command: '--default-authentication-plugin=mysql_native_password'
     environment:
-      - MYSQL_ROOT_PASSWORD=password-change-me
+      - MYSQL_ROOT_PASSWORD=uqmAS7QKYBUyk8C7dW7vTzvaNAXAkYwCZEGVmZUSNW4mJcP9rUJkoefxCiVi4tTk
       - TZ=UFT
       - MYSQL_DATABASE=wordpress
       - MYSQL_USER=wordpress
@@ -43,7 +36,7 @@ services:
       - 3306
       - 33060
     volumes:
-      - db_data:/var/lib/mysql
+      - /opt/docker/wp-stack/db_data:/var/lib/mysql
     deploy:
       replicas: 1
     restart: always
@@ -54,7 +47,4 @@ networks:
   wordpress-overlay:
     driver: overlay
     attachable: true
-
-volumes:
-  wp_data:
-  db_data:
+    
