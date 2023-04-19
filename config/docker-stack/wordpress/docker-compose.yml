@@ -13,7 +13,7 @@ services:
     volumes:
       - /opt/docker/wp-stack/wp_data:/var/www/html
     deploy:
-      replicas: 5
+      replicas: 1
       # resouces are optional
       # resources:
       #   limits:
