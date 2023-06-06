@@ -8,7 +8,11 @@
 ## Was ist Docker?
 * https://www.redhat.com/de/topics/containers/what-is-docker#überblick (1.3.23)
 * https://www.opc-router.de/was-ist-docker/#:~:text=Docker%20ist%20ein%20beliebtes%20Open,sowie%20die%20Systemressourcen%20gemeinsam%20nutzen (1.3.23)
+* 
+## Was ist Docker Swarm?
+* https://blog.doubleslash.de/docker-swarm-container-orchestration (17.4.23)
+* https://www.heise.de/hintergrund/Multi-Tier-Applikationen-mit-Docker-Compose-Machine-und-Swarm-3014669.html?seite=4 (17.4.23)
 
-## haproxy config
-* https://www.haproxy.com/de/blog/the-four-essential-sections-of-an-haproxy-configuration/
-* https://gist.github.com/bhameyie/07c1ee9aaa3e8a200c8c
+## Hypervisor - Proxmox
+* https://de.wikipedia.org/wiki/Proxmox_VE
+* https://www.keyweb.de/de/keyweb/blog/was-ist-proxmox-und-wie-steuere-ich-damit-einen-virtuellen-server
